@@ -15,4 +15,4 @@ A maven dependency adder/remover/updater
 - cat src/pom.sh target/pom-1.0-SNAPSHOT.jar >pom
 - chmod a+x pom
 
-Note that pom.sh just contains `exec java -jar $0`
+Note that `pom.sh` just contains `exec java -jar $0`$@
